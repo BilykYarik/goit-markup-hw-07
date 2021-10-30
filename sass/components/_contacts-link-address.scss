@@ -1,15 +1,14 @@
-.contacts-link-address {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-title-color);
-  text-align: left;
-}
-
-.contacts-link-address:focus,
-.contacts-link-address:hover,
-.footer-contacts-link:focus,
-.footer-contacts-link:hover {
-  color: var(--accent-color);
-  font-style: inherit;
-}
+        .contacts-link-address {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--primary-title-color);
+            text-align: left;
+            &:focus,
+            &:hover,
+            .footer-contacts-link:focus,
+            .footer-contacts-link:hover {
+                color: var(--accent-color);
+                font-style: inherit;
+            }
+        }

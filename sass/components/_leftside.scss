@@ -19,17 +19,14 @@
     font-size: 18px;
     line-height: 1.555;
     letter-spacing: 0.03em;
+    text-align: left;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .portf-link:hover .portfolio-card-text,
 .portf-link:focus .portfolio-card-text {
     transform: translateY(0);
-}
-
-.portfolio-card-text {
-    text-align: left;
-    padding-right: 24px;
-    padding-left: 24px;
 }
 
 .portf-section {
@@ -61,6 +58,7 @@
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card-description {
@@ -79,14 +77,9 @@
     letter-spacing: 0.06em;
     color: var(--header-text-color);
     text-align: left;
-}
-
-.item-portf {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-title:hover {
-    color: var(--accent-color);
+    &:hover {
+        color: var(--accent-color);
+    }
 }
 
 .portfolio-text {
@@ -95,8 +88,7 @@
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     text-align: left;
-}
-
-.portfolio-text:hover {
-    color: var(--accent-color);
+    &:hover {
+        color: var(--accent-color);
+    }
 }

@@ -1,85 +1,84 @@
 .icon-header-svg {
-  margin-right: 10px;
-  fill: currentColor;
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .main-nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .site-nav .item:not(:last-child),
 .list .item:not(:last-child) {
-  margin-right: 50px;
+    margin-right: 50px;
 }
 
 .logo {
-  margin-right: 90px;
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: var(--accent-color);
+    margin-right: 90px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--accent-color);
 }
 
 .logo-header {
-  color: var(--first-logo-color);
+    color: var(--first-logo-color);
 }
 
 .link {
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link {
-  margin-left: 50px;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--header-text-color);
-  text-align: left;
-}
-
-.header-link:focus,
-.header-link:hover,
-.contacts-link:focus,
-.contacts-link:hover,
-.site-nav .link.current,
-.header-contacts-link .link.current {
-  color: var(--accent-color);
+    margin-left: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+    text-align: left;
+    &:focus,
+    &:hover,
+    .contacts-link:focus,
+    .contacts-link:hover,
+    .site-nav .link.current,
+    .header-contacts-link .link.current {
+        color: var(--accent-color);
+    }
 }
 
 .header-contacts-link {
-  margin-left: auto;
+    margin-left: auto;
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .contacts-link {
-  margin-left: 50px;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--secondary-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  font-style: normal;
+    margin-left: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }

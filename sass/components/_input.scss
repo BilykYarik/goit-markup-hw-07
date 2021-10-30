@@ -29,11 +29,6 @@
     margin-right: 12px;
 }
 
-.signup-btn:focus,
-.signup-btn:hover {
-    color: var(--sect-team-bg-color);
-}
-
 .signup-btn {
     padding: 10px 27px;
     font-weight: 700;
@@ -44,6 +39,10 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--sect-team-bg-color);
+    &:focus,
+    &:hover {
+        color: var(--sect-team-bg-color);
+    }
 }
 
 .signup-btn-text {

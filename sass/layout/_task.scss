@@ -1,0 +1,40 @@
+.task-kok {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.task-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: var(--task-description-bg-color);
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.task .section {
+  padding-top: 0;
+}
+
+.list .task-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.task-img {
+  display: block;
+}
+
+.task-title {
+  margin-bottom: 50px;
+}

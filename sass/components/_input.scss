@@ -5,9 +5,7 @@
 .input-label {
     /* display: block; */
     margin-bottom: 4px;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include fontan (12px, 14px, 0.01em);
     color: var(--secondary-text-color);
 }
 
@@ -20,9 +18,7 @@
     display: flex;
     text-align: left;
     margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    @include fontan(14px, 16px, 0.03em);
 }
 
 .signup-label {
@@ -31,13 +27,9 @@
 
 .signup-btn {
     padding: 10px 27px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
+    @extend %align-items;
     text-align: center;
-    letter-spacing: 0.06em;
+    @include font (16px, 700, 30px, 0.06em);
     color: var(--sect-team-bg-color);
     &:focus,
     &:hover {

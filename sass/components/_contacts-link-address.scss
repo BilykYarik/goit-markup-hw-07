@@ -1,7 +1,5 @@
         .contacts-link-address {
-            font-size: 14px;
-            line-height: 1.71;
-            letter-spacing: 0.03em;
+            @include fontan (14px, 24px, 0.03em);
             color: var(--primary-title-color);
             text-align: left;
             &:focus,

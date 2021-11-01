@@ -1,53 +1,46 @@
 .team-ul {
-  margin: -15px;
+    margin: -15px;
 }
 
 .icon-svg {
-  fill: currentColor;
+    fill: currentColor;
 }
 
 .section-team {
-  background-color: var(--sect-team-bg-color);
+    background-color: var(--sect-team-bg-color);
 }
 
 .team-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-text-color);
+    font-weight: bold;
+    text-align: center;
+    @include fontan (36px, 42px, 0.03em);
+    color: var(--header-text-color);
 }
 
 .name {
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-text-color);
-  background-color: var(--primary-title-color);
+    margin-bottom: 10px;
+    text-align: center;
+    @include font (16px, 500, 19px, 0.03em);
+    color: var(--header-text-color);
+    background-color: var(--primary-title-color);
 }
 
 .text {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  background-color: var(--primary-title-color);
+    text-align: center;
+    @include fontan (16px, 19px, 0.03em);
+    color: var(--secondary-text-color);
+    background-color: var(--primary-title-color);
 }
 
 .team-card-description {
-  padding-top: 30px;
-  padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-title {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-img {
-  display: block;
+    display: block;
 }

@@ -6,11 +6,8 @@
             font-style: normal;
             border: 0;
             cursor: pointer;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.6;
             text-align: center;
-            letter-spacing: 0.03em;
+            @include font(16px, 500, 26px, 0.03em);
             color: var(--header-text-color);
             background-color: var(--sect-team-bg-color);
             border-radius: 4px;
@@ -27,11 +24,8 @@
             font-family: "Roboto";
             font-style: normal;
             border: 0;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.6;
             text-align: center;
-            letter-spacing: 0.03em;
+            @include font(16px, 500, 26px, 0.03em);
             color: var(--primary-title-color);
             background-color: var(--accent-color);
             border-radius: 4px;

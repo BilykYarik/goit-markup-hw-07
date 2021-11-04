@@ -1,26 +1,34 @@
-@import './utils/vars';
-@import './utils/placeholders';
-@import './utils/mixins';
-@import './base/reset';
-@import './base/common';
+@import './utils/normalize';
+@import './utils/variables';
+@import './utils/visual-hiden';
+@import './utils/global-settings';
+// HEADER
 @import './components/container';
-@import './components/hero-button';
-@import './components/title';
-@import './components/current';
-@import './components/socar-list';
-@import './components/clients-link';
-@import './components/footer-links';
-@import './components/contacts-link-address';
-@import './components/backdrop';
-@import './components/modal';
-@import './components/checkbox';
-@import './components/leftside';
-@import './components/input';
+@import './components/header-container';
+@import './components/nav';
+@import './components/logo';
+@import './components/contacts';
+// hero section
+@import './components/hero';
 @import './components/button';
-@import './layout/header';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/task';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/footer';
+// features section
+@import './components/features';
+// Work section
+@import './components/work';
+// Team section
+@import './components/team';
+@import './components/team-sociallink';
+// Clients section
+@import './components/clients';
+// footer section
+@import './components/footer';
+@import './components/footer-sociallink';
+@import './components/footer-signup-form';
+// PORTFOLIO
+@import './components/menu';
+@import './components/portf-items';
+@import './components/portfolio-overlay';
+// FORM
+@import './components/modal';
+@import './components/form';
+@import './components/form-checkbox';
